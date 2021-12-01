@@ -90,6 +90,37 @@ dt {
     margin-bottom: 20px;
 }
 
+.lien_acteur {
+    background-color: #ddd;
+    color: #880000;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgrey;
+}
+
+figure {
+    border: 1px solid #ddd;
+    width: 60%;
+    margin: 0.5em auto;
+    padding: 15px;
+    cursor: grab;
+}
+
+figure:hover {
+    background-color: #ddd;
+}
+
+figure img {
+    width: 90%;
+}
+
 footer {
     padding: 40px;
 }
